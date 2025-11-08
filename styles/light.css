@@ -37,9 +37,8 @@
     --border-color-opacity: #32312D66;
     --background-image:  url("../images/cover-image-light.png");
     --deco-color: var(--almost-black);
-
   }
-
+}
 .theme-light .rec_empty::before {
   display: none;
 }

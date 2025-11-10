@@ -20,14 +20,9 @@
   --border-color-opacity: #32312D66;
   --background-image:  url("../images/cover-image-light.png");
   --deco-color: var(--almost-black);
-
-
 }
 
-/*
-.theme-light .page  {
-  /* Вам также нужно будет написать ряд подобных селекторов 
-}*/
+}
 
 @media (prefers-color-scheme: light) {
   :root {
@@ -50,15 +45,6 @@
     --deco-color: var(--almost-black);
 
   }
-
-/*  
-  .rec_empty::before {
-    display: none;
-  }
-  
-  .rec_empty::after {
-    display: none;
-  }*/
 }
 
 .theme-light .rec_empty::before {

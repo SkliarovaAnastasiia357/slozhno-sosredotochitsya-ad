@@ -22,8 +22,6 @@
   --deco-color: var(--almost-black);
 }
 
-}
-
 @media (prefers-color-scheme: light) {
   :root {
     --accent-color: var(--basic-pink);
